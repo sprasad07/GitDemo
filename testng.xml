@@ -3,8 +3,14 @@
 <suite name="Suite">
   <test thread-count="5" name="test">
     <classes>
-      
+     <!--  
       <class name="com.practice.app.NewTest"/>
+      <class name="com.practice.app.NewSampleTest"/>
+       -->
+      
+      <class name="com.another.app.QAClick"/>
+      <class name="com.another.app.TestBase"/>
+      
     </classes>
   </test> <!-- test -->
 </suite> <!-- Suite -->

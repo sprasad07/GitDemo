@@ -1,0 +1,7 @@
+22:24:32.082 [main] ERROR com.another.app.TestBase - ABC Test Case 1 Error Log
+22:26:09.009 [main] INFO  com.another.app.TestBase - ABC Test Case 1 Info Log
+22:26:09.013 [main] ERROR com.another.app.TestBase - ABC Test Case 1 Error Log
+22:26:09.111 [main] INFO  com.another.app.TestBase - ABC Test Case 1 Info Log
+22:26:09.111 [main] ERROR com.another.app.TestBase - ABC Test Case 1 Error Log
+22:31:17.748 [main] INFO  com.another.app.TestBase - ABC Test Case 1 Info Log
+22:31:17.769 [main] ERROR com.another.app.TestBase - ABC Test Case 1 Error Log

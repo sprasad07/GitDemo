@@ -1,21 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="2" passed="2" failed="0" skipped="0">
+<testng-results total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-04-08T18:49:25Z" name="Default suite" finished-at="2020-04-08T18:49:25Z" duration-ms="139">
+  <suite started-at="2020-04-19T16:12:20Z" name="Suite" finished-at="2020-04-19T16:12:22Z" duration-ms="2725">
     <groups>
     </groups>
-    <test started-at="2020-04-08T18:49:25Z" name="Default test" finished-at="2020-04-08T18:49:25Z" duration-ms="139">
-      <class name="com.practice.app.NewTest">
-        <test-method signature="SampleTest()[pri:0, instance:com.practice.app.NewTest@560348e6]" started-at="2020-04-09T00:19:25Z" name="SampleTest" finished-at="2020-04-09T00:19:25Z" duration-ms="68" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SampleTest -->
-        <test-method signature="shouldAnswerWithTrue()[pri:0, instance:com.practice.app.NewTest@560348e6]" started-at="2020-04-09T00:19:25Z" name="shouldAnswerWithTrue" finished-at="2020-04-09T00:19:25Z" duration-ms="8" status="PASS">
+    <test started-at="2020-04-19T16:12:20Z" name="test" finished-at="2020-04-19T16:12:22Z" duration-ms="2725">
+      <class name="com.another.app.TestBase">
+        <test-method signature="shouldAnswerWithTrue()[pri:0, instance:com.another.app.TestBase@48c35007]" started-at="2020-04-19T21:42:22Z" name="shouldAnswerWithTrue" finished-at="2020-04-19T21:42:22Z" duration-ms="220" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldAnswerWithTrue -->
-      </class> <!-- com.practice.app.NewTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.another.app.TestBase -->
+      <class name="com.another.app.QAClick">
+        <test-method is-config="true" signature="setBrowser()[pri:0, instance:com.another.app.QAClick@1991f767]" started-at="2020-04-19T21:41:31Z" name="setBrowser" finished-at="2020-04-19T21:42:20Z" duration-ms="48797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method signature="RadioButton()[pri:0, instance:com.another.app.QAClick@1991f767]" started-at="2020-04-19T21:42:20Z" name="RadioButton" finished-at="2020-04-19T21:42:22Z" duration-ms="2253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RadioButton -->
+        <test-method signature="shouldAnswerWithTrue()[pri:0, instance:com.another.app.QAClick@1991f767]" started-at="2020-04-19T21:42:22Z" name="shouldAnswerWithTrue" finished-at="2020-04-19T21:42:22Z" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAnswerWithTrue -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.another.app.QAClick@1991f767]" started-at="2020-04-19T21:42:23Z" name="closeBrowser" finished-at="2020-04-19T21:42:25Z" duration-ms="2054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.another.app.QAClick -->
+    </test> <!-- test -->
+  </suite> <!-- Suite -->
 </testng-results>

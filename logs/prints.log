@@ -1,0 +1,2 @@
+21:42:22.525 [main] INFO  com.another.app.TestBase - ABC Test Case 1 Info Log
+21:42:22.742 [main] ERROR com.another.app.TestBase - ABC Test Case 1 Error Log

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <test parallel="none" name="test(failed)">
+    <classes>
+      <class name="com.another.app.QAClick">
+        <methods>
+          <include name="RadioButton"/>
+          <include name="closeBrowser"/>
+          <include name="setBrowser"/>
+        </methods>
+      </class> <!-- com.another.app.QAClick -->
+    </classes>
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

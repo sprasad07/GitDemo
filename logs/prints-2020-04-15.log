@@ -1,0 +1,7 @@
+21:47:34.201 [main] ERROR com.practice.app.NewTest - Sample test error log
+21:47:34.256 [main] INFO  com.practice.app.NewTest - Test Case 1 Result Log
+21:47:34.262 [main] DEBUG com.practice.app.NewSampleTest - SampleTest debug log
+21:47:34.263 [main] ERROR com.practice.app.NewSampleTest - Sample test error log
+21:47:34.265 [main] INFO  com.another.app.ABCTest - ABC Test Case 1 Info Log
+21:47:34.266 [main] ERROR com.another.app.ABCTest - ABC Test Case 1 Error Log
+22:14:31.729 [main] DEBUG com.practice.app.NewTest - SampleTest debug log

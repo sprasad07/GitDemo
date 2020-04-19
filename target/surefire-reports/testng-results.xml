@@ -1,21 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="2" passed="2" failed="0" skipped="0">
+<testng-results total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-04-09T15:26:07Z" name="Suite" finished-at="2020-04-09T15:26:07Z" duration-ms="111">
+  <suite started-at="2020-04-15T16:44:31Z" name="Suite" finished-at="2020-04-15T16:44:31Z" duration-ms="169">
     <groups>
     </groups>
-    <test started-at="2020-04-09T15:26:07Z" name="test" finished-at="2020-04-09T15:26:07Z" duration-ms="111">
+    <test started-at="2020-04-15T16:44:31Z" name="test" finished-at="2020-04-15T16:44:31Z" duration-ms="169">
       <class name="com.practice.app.NewTest">
-        <test-method signature="SampleTest()[pri:0, instance:com.practice.app.NewTest@7d61eb55]" started-at="2020-04-09T20:56:07Z" name="SampleTest" finished-at="2020-04-09T20:56:07Z" duration-ms="81" status="PASS">
+        <test-method signature="SampleTest()[pri:0, instance:com.practice.app.NewTest@4bff1903]" started-at="2020-04-15T22:14:31Z" name="SampleTest" finished-at="2020-04-15T22:14:31Z" duration-ms="144" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SampleTest -->
-        <test-method signature="shouldAnswerWithTrue()[pri:0, instance:com.practice.app.NewTest@7d61eb55]" started-at="2020-04-09T20:56:07Z" name="shouldAnswerWithTrue" finished-at="2020-04-09T20:56:07Z" duration-ms="0" status="PASS">
+        <test-method signature="shouldAnswerWithTrue()[pri:0, instance:com.practice.app.NewTest@4bff1903]" started-at="2020-04-15T22:14:31Z" name="shouldAnswerWithTrue" finished-at="2020-04-15T22:14:31Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldAnswerWithTrue -->
       </class> <!-- com.practice.app.NewTest -->
+      <class name="com.another.app.ABCTest">
+        <test-method signature="shouldAnswerWithTrue()[pri:0, instance:com.another.app.ABCTest@62dae540]" started-at="2020-04-15T22:14:31Z" name="shouldAnswerWithTrue" finished-at="2020-04-15T22:14:31Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAnswerWithTrue -->
+      </class> <!-- com.another.app.ABCTest -->
+      <class name="com.practice.app.NewSampleTest">
+        <test-method signature="SampleTest()[pri:0, instance:com.practice.app.NewSampleTest@7894f09b]" started-at="2020-04-15T22:14:31Z" name="SampleTest" finished-at="2020-04-15T22:14:31Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SampleTest -->
+      </class> <!-- com.practice.app.NewSampleTest -->
     </test> <!-- test -->
   </suite> <!-- Suite -->
 </testng-results>
